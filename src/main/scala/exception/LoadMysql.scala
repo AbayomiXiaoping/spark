@@ -17,6 +17,7 @@ object LoadMysql {
     
     println(df.printSchema())
     
+    if(spark!=null)
     spark.stop()
   }
 }
